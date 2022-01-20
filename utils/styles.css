@@ -1,0 +1,141 @@
+@import url('./base.css');
+@import url('./design.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root
+{
+  --picdomain: url("https://picsum.photos/350/200");
+  --small-image: url('https://picsum.photos/110');
+  background: lightgray;
+  --root-bg: #d3d3d3;
+  --secondary-bg: #ffffff;
+  font-family: 'Roboto';
+  --theme-color: #6200ee;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    color: var(--theme-color);
+}
+
+input {
+    border: none;
+}
+/* ================== Cards ================== */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: var(--secondary-bg);
+}
+
+.card_image {
+    width: 350px;
+    height: 200px;
+    background-image: var(--picdomain);
+}
+
+.card_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_topic {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.125rem;
+}
+
+.card_footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: var(--theme-color);
+}
+
+.card_button{
+    cursor: pointer;
+}
+
+.card_button:hover {
+    background: lightpurple;
+}
+
+.card_icons {
+   margin-left: auto;
+}
+
+/* ================= Chips ================== */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 400px;
+    background: var(--secondary-bg);
+    height: fit-content;
+    width: fit-content;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0px;
+    flex: 1 0 auto;
+}
+
+.list_item {
+    list-style-type: none;
+    padding: 8px;
+    background: var(--theme-color);
+    color: var(--secondary-bg);
+}
+
+.stacked_list {
+    padding: 0;
+}
+
+.input_wrapper {
+    max-width: 100%;
+    margin: 10px;
+    background: var(--secondary-bg);
+    border-bottom: 1px solid var(--theme-color);
+}
+
+.add_item {
+    list-style-type: none;
+    padding: 8px;
+    background: var(--root-bg);
+    color: var(--theme-color);
+}
+
+.plus-icon {
+    padding-top: 8px;
+    margin-left: -32px;
+}

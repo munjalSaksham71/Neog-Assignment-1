@@ -1,0 +1,36 @@
+.border-dark{
+    border: 1px solid #000000;
+}
+
+.border-light{
+    border: 1px solid #d3d3d3;
+}
+
+.curve-border {
+    border-radius: 5px;
+}
+
+.up-curve-border {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.down-curve-border {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.on-top {
+    order: -1;
+}
+
+.on-image {
+    margin-top: -56px;
+    color: white;
+}
+
+.top_on_image {
+    height: 310px;
+}
+
+.circle-border {
+    border-radius: 50%;
+}
