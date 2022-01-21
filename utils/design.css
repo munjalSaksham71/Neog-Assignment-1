@@ -18,6 +18,10 @@
     border-radius: 0px 0px 10px 10px;
 }
 
+.bottom-right-curve-border {
+    border-radius: 0px 0px 10px 0px;
+}
+
 .on-top {
     order: -1;
 }
