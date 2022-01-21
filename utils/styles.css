@@ -66,6 +66,18 @@ input {
     background-image: var(--picdomain);
 }
 
+.card_image_small {
+    width: 110px;
+    height: 110px;
+    background-image: var(--picdomain);
+}
+
+.card_row_title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .card_main {
     display: flex;
     flex-direction: column;
