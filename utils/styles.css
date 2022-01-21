@@ -197,3 +197,64 @@ input {
     max-width: 80px;
     margin: auto;
 }
+
+/* ========== Badges ========= */
+
+.row_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.varaint-bg {
+    padding: 8px 16px;
+    background: var(--theme-color);
+    color: var(--secondary-bg);
+    border: none;
+}
+
+.badge {
+    position: relative;
+    background: var(--theme-color);
+    color: var(--secondary-bg);
+    padding: 4px;
+}
+
+.badge_text {
+    top: -9px;
+    font-size: 10px;
+}
+
+.badge_btn_right {
+    color: var(--theme-color);
+    background-color: var(--secondary-bg);
+    padding: 5px;
+    font-size: 15px;
+    left: -36px;
+    top: -9px;
+}
+
+.badge_btn_left {
+    color: var(--theme-color);
+    background-color: var(--secondary-bg);
+    padding: 5px;
+    font-size: 15px;
+    left: -112px;
+    top: -13px;
+}
+
+.badge_icon  {
+    color: var(--theme-color);
+    background-color: var(--secondary-bg);
+    padding: 5px;
+    font-size: 15px;
+    top: -14px;
+}
+
+.bigger_text {
+    font-size: 20px;
+}
+
+.big_icon {
+    font-size: 30px;
+}
