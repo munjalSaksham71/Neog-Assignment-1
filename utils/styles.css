@@ -1,6 +1,6 @@
 @import url('./base.css');
 @import url('./design.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;800;900&display=swap');
 
 :root
 {
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
     color: var(--theme-color);
 }
@@ -28,7 +28,19 @@ h1 {
 input {
     border: none;
 }
+
+.component_name {
+    text-align: center;
+    color: var(--theme-color);
+}
+
 /* ================== Cards ================== */
+
+.component {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .cards{
     display: flex;
