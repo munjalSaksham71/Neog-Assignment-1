@@ -270,3 +270,33 @@ input {
 .big_icon {
     font-size: 30px;
 }
+
+/* ========== Drawer Component =========== */
+.box {
+    max-width: 200px;
+    background: var(--secondary-bg);
+    color: black;
+}
+
+.drawer_title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.drawer_subtitle {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.drawer_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer_text {
+    cursor: pointer;
+}
+
+.drawer_text:hover {
+    background-color: #CBC3E3;
+}
